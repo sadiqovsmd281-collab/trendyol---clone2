@@ -135,3 +135,35 @@ label{
     fill: #F27a10;
     stroke: #F27a10;
 }
+
+.hesap{
+    display: none;
+    border: 1px solid #d3d0d0;
+    width: 17rem;
+    flex-direction: column;
+    padding: 1.3rem;
+    border-radius: 0.9rem;
+    transform: translate(-5.5rem, 1rem);
+    position: absolute;
+}
+
+.hesap button{
+    background: transparent;
+    background: #F27a10;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    color: #fff;
+    font-weight: bold;
+    margin: 0.5rem 0rem;
+}
+
+.hesap .uye{
+    color: #7c7676;
+    background: #fff;
+    border: 1px solid #d3d0d0;
+    padding: 1rem;
+}
+
+.login:hover .hesap{
+    display: flex;
+}
